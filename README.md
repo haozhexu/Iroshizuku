@@ -1,3 +1,3 @@
 # Iroshizuku
 
-A description of this package.
+A list of ancient colours for iOS/macOS.
