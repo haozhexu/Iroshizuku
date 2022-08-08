@@ -275,7 +275,7 @@ public extension NativeColor {
     }
     
     // 深綠
-    static var season_Ryoku: NativeColor {
+    static var season_ryoku: NativeColor {
         return NativeColor(red: 185, green: 15, blue: 132)
     }
     
