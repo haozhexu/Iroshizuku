@@ -19,327 +19,338 @@
 
 public extension NativeColor {
     
-    // 胭脂
+    /// 胭脂
     static var cc_rouge: NativeColor {
-        return NativeColor(red: 157, green: 41, blue: 50)
+        .init(red: 157, green: 41, blue: 50)
     }
     
-    // 牙白
+    /// 牙白
     static var cc_ivory: NativeColor {
-        return NativeColor(red: 239, green: 222, blue: 176)
+        .init(red: 239, green: 222, blue: 176)
     }
     
-    // 竹青
+    /// 竹青
     static var cc_bamboo: NativeColor {
-        return NativeColor(red: 120, green: 146, blue: 98)
+        .init(red: 120, green: 146, blue: 98)
     }
     
-    // 黛紫
+    /// 黛紫
     static var cc_dye: NativeColor {
-        return NativeColor(red: 73, green: 65, blue: 102)
+        .init(red: 73, green: 65, blue: 102)
     }
     
-    // 驼
+    /// 驼
     static var cc_camel: NativeColor {
-        return NativeColor(red: 168, green: 132, blue: 98)
+        .init(red: 168, green: 132, blue: 98)
     }
     
-    // 靛
+    /// 靛
     static var cc_indigo: NativeColor {
-        return NativeColor(red: 6, green: 82, blue: 121)
+        .init(red: 6, green: 82, blue: 121)
     }
     
-    // 秋香
+    /// 秋香
     static var cc_autumnSmell: NativeColor {
-        return NativeColor(red: 217, green: 182, blue: 18)
+        .init(red: 217, green: 182, blue: 18)
     }
     
-    // 鸦
+    /// 鸦
     static var cc_raven: NativeColor {
-        return NativeColor(red: 66, green: 75, blue: 80)
+        .init(red: 66, green: 75, blue: 80)
     }
     
-    // 荼白
+    /// 荼白
     static var cc_whiteTea: NativeColor {
-        return NativeColor(red: 243, green: 248, blue: 241)
+        .init(red: 243, green: 248, blue: 241)
     }
     
-    // 绾
+    /// 绾
     static var cc_string: NativeColor {
-        return NativeColor(red: 169, green: 129, blue: 117)
+        .init(red: 169, green: 129, blue: 117)
     }
     
-    // 绿水
+    /// 绿水
     static var cc_waterJade: NativeColor {
-        return NativeColor(red: 212, green: 242, blue: 232)
+        .init(red: 212, green: 242, blue: 232)
     }
     
-    // 赤
+    /// 赤
     static var cc_red: NativeColor {
-        return NativeColor(red: 195, green: 39, blue: 43)
+        .init(red: 195, green: 39, blue: 43)
     }
     
-    // 炎
+    /// 炎
     static var cc_fire: NativeColor {
-        return NativeColor(red: 255, green: 51, blue: 0)
+        .init(red: 255, green: 51, blue: 0)
     }
     
-    // 黎
+    /// 黎
     static var cc_dawn: NativeColor {
-        return NativeColor(red: 118, green: 102, blue: 77)
+        .init(red: 118, green: 102, blue: 77)
     }
     
-    // 黛蓝
+    /// 黛蓝
     static var cc_dyeBlue: NativeColor {
-        return NativeColor(red: 65, green: 80, blue: 101)
+        .init(red: 65, green: 80, blue: 101)
     }
     
-    // 艾青
+    /// 艾青
     static var cc_wormwood: NativeColor {
-        return NativeColor(red: 163, green: 226, blue: 197)
+        .init(red: 163, green: 226, blue: 197)
     }
     
-    // 月白
+    /// 月白
     static var cc_whiteMoon: NativeColor {
-        return NativeColor(red: 215, green: 236, blue: 241)
+        .init(red: 215, green: 236, blue: 241)
     }
     
-    // 妃
+    /// 妃
     static var cc_concubine: NativeColor {
-        return NativeColor(red: 239, green: 86, blue: 54)
+        .init(red: 239, green: 86, blue: 54)
     }
 }
 
-// MARK: - Ink Colors
+/// MARK: - Ink Colors
 
 public extension NativeColor {
     
-    // 月櫻
+    /// 月櫻
     static var season_sakuraMoon: NativeColor {
-        return NativeColor(red: 176, green: 122, blue: 156)
-    }
-    
-    // 若鶯
-    static var season_youngNightingale: NativeColor {
-        return NativeColor(red: 98, green: 134, blue: 24)
-    }
-    
-    // 櫻森
-    static var season_sakuraBlossom: NativeColor {
-        return NativeColor(red: 236, green: 115, blue: 146)
-    }
-    
-    // 三色堇
-    static var season_sweetViolet: NativeColor {
-        return NativeColor(red: 109, green: 125, blue: 184)
-    }
-    
-    // 海松藍
-    static var season_seaPine: NativeColor {
-        return NativeColor(red: 53, green: 82, blue: 64)
-    }
-    
-    // 夜焚
-    static var season_nightFire: NativeColor {
-        return NativeColor(red: 155, green: 25, blue: 33)
-    }
-    
-    // 藤姿
-    static var season_wisteria: NativeColor {
-        return NativeColor(red: 119, green: 114, blue: 180)
-    }
-    
-    // 蒼空
-    static var season_sky: NativeColor {
-        return NativeColor(red: 1, green: 138, blue: 206)
-    }
-    
-    // 土用
-    static var season_soil: NativeColor {
-        return NativeColor(red: 100, green: 74, blue: 59)
-    }
-    
-    // 利休茶
-    static var season_rikyuTea: NativeColor {
-        return NativeColor(red: 83, green: 75, blue: 26)
-    }
-    
-    // 長夜
-    static var season_longNight: NativeColor {
-        return NativeColor(red: 18, green: 52, blue: 90)
-    }
-    
-    // 金木犀
-    static var season_fragrantOlive: NativeColor {
-        return NativeColor(red: 240, green: 134, blue: 12)
-    }
-    
-    // 山鳥
-    static var season_mountainBird: NativeColor {
-        return NativeColor(red: 0, green: 113, blue: 140)
-    }
-    
-    // 秋山
-    static var season_autumnMountain: NativeColor {
-        return NativeColor(red: 142, green: 46, blue: 73)
-    }
-    
-    // 仲秋
-    static var season_midAutumn: NativeColor {
-        return NativeColor(red: 91, green: 81, blue: 108)
-    }
-    
-    // 霜夜
-    static var season_frostNight: NativeColor {
-        return NativeColor(red: 56, green: 90, blue: 118)
-    }
-    
-    // 時雨
-    static var season_showerRain: NativeColor {
-        return NativeColor(red: 72, green: 51, blue: 130)
-    }
-    
-    // 雪明
-    static var season_brightSnow: NativeColor {
-        return NativeColor(red: 0, green: 177, blue: 221)
-    }
-    
-    // 圍爐裡
-    static var season_fireHearth: NativeColor {
-        return NativeColor(red: 230, green: 21, blue: 43)
-    }
-    
-    // 常青松
-    static var season_winterPine: NativeColor {
-        return NativeColor(red: 0, green: 76, blue: 30)
+        .init(red: 176, green: 122, blue: 156)
     }
 
-    // 紫陽花
+    /// 若鶯
+    static var season_youngNightingale: NativeColor {
+        .init(red: 98, green: 134, blue: 24)
+    }
+    
+    /// 櫻森
+    static var season_sakuraBlossom: NativeColor {
+        .init(red: 236, green: 115, blue: 146)
+    }
+
+    /// 花筏
+    static var season_hanaIkada: NativeColor {
+        .init(red: 237, green: 148, blue: 166)
+    }
+    
+    /// 三色堇
+    static var season_sweetViolet: NativeColor {
+        .init(red: 109, green: 125, blue: 184)
+    }
+    
+    /// 海松藍
+    static var season_seaPine: NativeColor {
+        .init(red: 53, green: 82, blue: 64)
+    }
+    
+    /// 夜焚
+    static var season_nightFire: NativeColor {
+        .init(red: 155, green: 25, blue: 33)
+    }
+
+    /// 螢火
+    /// Bright spring green
+    static var season_hotaruBi: NativeColor {
+        .init(red: 207, green: 212, blue: 1)
+    }
+    
+    /// 藤姿
+    static var season_wisteria: NativeColor {
+        .init(red: 119, green: 114, blue: 180)
+    }
+    
+    /// 蒼空
+    static var season_sky: NativeColor {
+        .init(red: 1, green: 138, blue: 206)
+    }
+    
+    /// 土用
+    static var season_soil: NativeColor {
+        .init(red: 100, green: 74, blue: 59)
+    }
+    
+    /// 利休茶
+    static var season_rikyuTea: NativeColor {
+        .init(red: 83, green: 75, blue: 26)
+    }
+    
+    /// 長夜
+    static var season_longNight: NativeColor {
+        .init(red: 18, green: 52, blue: 90)
+    }
+    
+    /// 金木犀
+    static var season_fragrantOlive: NativeColor {
+        .init(red: 240, green: 134, blue: 12)
+    }
+    
+    /// 山鳥
+    static var season_mountainBird: NativeColor {
+        .init(red: 0, green: 113, blue: 140)
+    }
+    
+    /// 秋山
+    static var season_autumnMountain: NativeColor {
+        .init(red: 142, green: 46, blue: 73)
+    }
+    
+    /// 仲秋
+    static var season_midAutumn: NativeColor {
+        .init(red: 91, green: 81, blue: 108)
+    }
+    
+    /// 霜夜
+    static var season_frostNight: NativeColor {
+        .init(red: 56, green: 90, blue: 118)
+    }
+    
+    /// 時雨
+    static var season_showerRain: NativeColor {
+        .init(red: 72, green: 51, blue: 130)
+    }
+    
+    /// 雪明
+    static var season_brightSnow: NativeColor {
+        .init(red: 0, green: 177, blue: 221)
+    }
+    
+    /// 圍爐裡
+    static var season_fireHearth: NativeColor {
+        .init(red: 230, green: 21, blue: 43)
+    }
+    
+    /// 常青松
+    static var season_winterPine: NativeColor {
+        .init(red: 0, green: 76, blue: 30)
+    }
+
+    /// 紫陽花
     static var season_ajisai: NativeColor {
-        return NativeColor(red: 86, green: 127, blue: 193)
+        .init(red: 86, green: 127, blue: 193)
     }
     
-    // 紫式部
+    /// 紫式部
     static var season_murasakiShikibu: NativeColor {
-        return NativeColor(red: 108, green: 84, blue: 165)
+        .init(red: 108, green: 84, blue: 165)
     }
     
-    // 山葡萄
+    /// 山葡萄
     static var season_yamaBudo: NativeColor {
-        return NativeColor(red: 145, green: 58, blue: 145)
+        .init(red: 145, green: 58, blue: 145)
     }
     
-    // 躑躅
+    /// 躑躅
     static var season_tsutsuji: NativeColor {
-        return NativeColor(red: 185, green: 15, blue: 132)
+        .init(red: 185, green: 15, blue: 132)
     }
     
-    // 秋櫻
+    /// 秋櫻
     static var season_kosumosu: NativeColor {
-        return NativeColor(red: 238, green: 84, blue: 138)
+        .init(red: 202, green: 29, blue: 72)
     }
     
-    // 紅葉
+    /// 紅葉
     static var season_momiji: NativeColor {
-        return NativeColor(red: 185, green: 15, blue: 132)
+        .init(red: 224, green: 5, blue: 22)
     }
     
-    // 冬柿
+    /// 冬柿
     static var season_fuyuGaki: NativeColor {
-        return NativeColor(red: 238, green: 88, blue: 100)
+        .init(red: 238, green: 88, blue: 100)
     }
     
-    // 夕燒
+    /// 夕燒
     static var season_yuYake: NativeColor {
-        return NativeColor(red: 243, green: 108, blue: 53)
+        .init(red: 243, green: 108, blue: 53)
     }
     
-    // 土筆
+    /// 土筆
     static var season_tsukushi: NativeColor {
-        return NativeColor(red: 63, green: 24, blue: 8)
+        .init(red: 63, green: 24, blue: 8)
     }
     
-    // 山栗
+    /// 山栗
     static var season_yamaGuri: NativeColor {
-        return NativeColor(red: 55, green: 39, blue: 42)
+        .init(red: 55, green: 39, blue: 42)
     }
     
-    // 稻穗
+    /// 稻穗
     static var season_inaHo: NativeColor {
-        return NativeColor(red: 157, green: 125, blue: 17)
+        .init(red: 157, green: 125, blue: 17)
     }
     
-    // 竹林
+    /// 竹林
     static var season_chikuRin: NativeColor {
-        return NativeColor(red: 117, green: 183, blue: 101)
+        .init(red: 117, green: 183, blue: 101)
     }
     
-    // 深綠
+    /// 深綠
     static var season_ryoku: NativeColor {
-        return NativeColor(red: 1, green: 134, blue: 84)
+        .init(red: 1, green: 134, blue: 84)
     }
     
-    // 松露
+    /// 松露
     static var season_syoRo: NativeColor {
-        return NativeColor(red: 0, green: 91, blue: 104)
+        .init(red: 0, green: 91, blue: 104)
     }
     
-    // 孔雀
+    /// 孔雀
     static var season_kuJaku: NativeColor {
-        return NativeColor(red: 0, green: 125, blue: 140)
+        .init(red: 0, green: 125, blue: 140)
     }
     
-    // 月夜
+    /// 月夜
     static var season_tsukiYo: NativeColor {
-        return NativeColor(red: 1, green: 88, blue: 125)
+        .init(red: 1, green: 88, blue: 125)
     }
     
-    // 紺碧
+    /// 紺碧
     static var season_konPeki: NativeColor {
-        return NativeColor(red: 2, green: 116, blue: 182)
+        .init(red: 2, green: 116, blue: 182)
     }
     
-    // 天色
+    /// 天色
     static var season_amaIro: NativeColor {
-        return NativeColor(red: 1, green: 136, blue: 207)
+        .init(red: 1, green: 136, blue: 207)
     }
     
-    // 露草
+    /// 露草
     static var season_tsuyuKusa: NativeColor {
-        return NativeColor(red: 0, green: 113, blue: 186)
+        .init(red: 0, green: 113, blue: 186)
     }
     
-    // 朝顏
+    /// 朝顏
     static var season_asaGao: NativeColor {
-        return NativeColor(red: 0, green: 90, blue: 169)
+        .init(red: 0, green: 90, blue: 169)
     }
     
-    // 深海
+    /// 深海
     static var season_shinKai: NativeColor {
-        return NativeColor(red: 62, green: 133, blue: 184)
+        .init(red: 62, green: 133, blue: 184)
     }
     
-    // 冬將軍
+    /// 冬將軍
     static var season_fuyuSyogu: NativeColor {
-        return NativeColor(red: 80, green: 122, blue: 144)
+        .init(red: 80, green: 122, blue: 144)
     }
     
-    // 霧雨
+    /// 霧雨
     static var season_kiriSame: NativeColor {
-        return NativeColor(red: 82, green: 111, blue: 115)
+        .init(red: 82, green: 111, blue: 115)
     }
     
-    // 竹炭
+    /// 竹炭
     static var season_takeSumi: NativeColor {
-        return NativeColor(red: 3, green: 2, blue: 21)
+        .init(red: 3, green: 2, blue: 21)
     }
 }
 
-// MARK: - Color Extension
+/// MARK: - Color Extension
 
 public extension NativeColor {
     
-    // Create a UIColor from RGB
+    /// Create a UIColor from RGB
     convenience init(red: Int, green: Int, blue: Int, a: CGFloat = 1.0) {
         self.init(
             red: CGFloat(red) / 255.0,
@@ -349,7 +360,7 @@ public extension NativeColor {
         )
     }
     
-    // Create a UIColor from a hex value (E.g 0x000000)
+    /// Create a UIColor from a hex value (E.g 0x000000)
     convenience init(hex: Int, a: CGFloat = 1.0) {
         self.init(
             red: (hex >> 16) & 0xFF,
